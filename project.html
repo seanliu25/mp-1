@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset = "UTF-8">
+        <title> cs391 | Resume </title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <!-- This is the header of the webpage-->
+        <header> 
+             <!-- My name: -->
+            <h1>
+                Project
+            </h1>
+            <!-- My description: -->
+            <p> 
+                <em>Lists are my Projects</em>
+            </p>
+        </header>
+        <!-- Navgation starts here: -->
+        <div class ="container">
+            <nav>
+                <p> Menue</p>
+                <ul>
+                    <li>
+                        <a href = "index.html"> Home </a>
+                    </li>
+                    <li>
+                        <a href = "work-experience.html"> Work Experience </a>
+                    </li>
+                    <li>
+                        <a href = "project.html"> Projects </a>
+                    </li>
+                    <li>
+                        <a href = "research.html"> Research & Education </a>
+                    </li>
+                    <li>
+                        <a href = "achievement.html"> Achievement </a>
+                    </li>
+                    <li>
+                        <a href = "skill.html"> Skills </a>
+                    </li>
+                </ul>
+            </nav>
+            <main>
+                <div class = "project">
+                    <h2>Projects</h2>
+                    <ul>
+                        <li><strong>Personal Web Financial Data Analytics - Boston, MA (2023 - 2024)</strong>
+                            <ul>
+                                <li>Developed a web-based application that provides personal budget suggestions based on user data.</li>
+                                <li>Ensured security by integrating Open Authorization (OAuth) from Google and Facebook.</li>
+                                <li>Implemented an SQLite-based database to manage and secure user data.</li>
+                                <li>Applied AI to enhance the accuracy of financial suggestions based on user activity.</li>
+                                <li>Used technologies including HTML, JavaScript, Python, and CSS.</li><br><br>
+                            </ul>
+                        </li>
+
+                        <li><strong>Unity Game Project - Harrisburg, PA (2020 - 2022)</strong>
+                            <ul>
+                                <li>Led the design and implementation of a 2D game using Unity Engine.</li>
+                                <li>Collaborated on the design of the code structure, user interface, and 3D model designs.</li>
+                                <li>Utilized C#, Maya, and Unity for game development.</li>
+                                <li>Deployed the game on Windows systems for smooth gameplay.</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class = "Javascript_Calc">
+                    <h2>
+                        JavaScript Calculator :
+                    </h2>
+                </div>
+                
+                <div class = "Calcu">
+                    <label for = "first"> First Number: </label><input id = "first" type="number">
+                    <label for = "second"> Second Number: </label><input id = "second" type="number">
+                    <button onclick = "addition()">+</button>
+                    <button onclick = "subtraction()">-</button>
+                    <button onclick = "multiplication()">*</button>
+                    <button onclick = "division()">/</button>
+                    <button onclick = "mypow()">**</button>
+                    <button onclick = "doclear()">Clear</button>
+                    <h3 id = "output"></h3>
+                </div>
+            </main>
+        </div>
+        <!-- footer goes here -->
+        <footer>
+            <p>All rights reserved by Shangwei Liu<a href="">Credits</a> &#169;</p>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>
+
+
